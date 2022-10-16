@@ -2,7 +2,7 @@
 
 ## 演示
 
-[B站视频](https://www.bilibili.com/video/BV1v84y1z74F)
+1. [B站视频](https://www.bilibili.com/video/BV1v84y1z74F)
 ## 工具
 
 1. init
