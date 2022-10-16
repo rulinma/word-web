@@ -1,0 +1,101 @@
+.word_rel {
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  height: 200px;
+  background-color: #fff;
+}
+
+.xmindSVG {
+  width: 300px;
+  height: 200px;
+  background-color: #4676FB;
+}
+
+.left_xmind {
+  content: "";
+  position: fixed;
+  top: 45%;
+  left: 0.3rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(images/leftarrow.png) no-repeat;
+  background-size: 1rem auto;
+  z-index: 500;
+}
+
+.right_xmind{
+  content: "";
+  position: fixed;
+  top: 45%;
+  right: 0.3rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(images/rightarrow.png) no-repeat;
+  background-size: 1rem auto;
+  text-align: right;
+  z-index: 500;
+  /* float: right; */
+}
+
+.graph {
+  height: 350px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.relaitve_word {
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+li:hover {
+  /* color: #4676FB; */
+  /* cursor: pointer; */
+  display: block;
+  background-color:#f6f6f6;
+}
+
+
+#relaitve_word ul li {
+  padding: 0 1rem;
+  list-style: none;
+  font-size: 20px;
+  /* background-color: #fff; */
+  border: 1px solid #f3f3f3;
+  /* line-height: 40px; */
+}
+
+.relaitve_word_rank{
+  /* margin-left: 5px; */
+  font-size: 16px;
+}
+
+.relaitve_word_pronunciation {
+  margin: 0 5px;
+}
+
+.relaitve_word_chinese{
+  display: block;
+}
+
+.relaitve_word_chinese_item {
+  display: block;
+  font-size: 16px;
+}
+
+.xmindShow {
+  right: 1rem;
+  display: block;
+  text-align: right;
+  margin: 0 5px;
+  padding: 5px 10px ;
+  background-color: #fff;
+}

@@ -1,0 +1,143 @@
+.head {
+  color: blue;
+}
+
+.recommend {
+  position: relative;
+  /* background-color: #f2f2f2; */
+  /* min-height: 30rem; */
+  /* max-width: 540px; */
+  /** 给父元素加上 transform:translate(0,0) ，fixed即可根据父容器定位 **/
+  transform: translate(0, 0);
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+
+.leftrec {
+  content: "";
+  position: fixed;
+  top: 45%;
+  left: 1rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(images/leftarrow.png) no-repeat;
+  background-size: 1rem auto;
+  /* z-index: 500; */
+}
+
+.rightrec {
+  content: "";
+  position: fixed;
+  top: 45%;
+  right: 1rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(images/rightarrow.png) no-repeat;
+  background-size: 1rem auto;
+  text-align: right;
+  /* z-index: 500; */
+  /* float: right; */
+}
+
+.corerec {
+  position: relative;
+}
+
+.word_title {
+  padding-left: 1rem;
+  text-align: left;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #fff;
+}
+
+.word_txt {
+  float: left;
+}
+
+.word_rank {
+  float: left;
+  padding-left: 5px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.rank {
+  font-size: 0.5rem;
+}
+
+.star {
+  /* font-size: 0.5rem; */
+  /* vertical-align: middle; */
+  line-height: 32px;
+  height: 32px;
+}
+
+.star img {
+  width: 20px;
+  vertical-align: top;
+}
+
+.word_prouncation {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.text_prouncation {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+.prouncation {
+  /** 垂直居中 **/
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  line-height: 32px;
+  background-image: url(images/prouncation.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0px 0px 6px 0;
+}
+
+.word_pic {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  display: block;
+  /* 可以放到最下层 */
+  /* z-index:-1; */
+}
+
+.word_explain {
+  padding-left: 5px;
+  text-align: left;
+  font-size: 1.1rem;
+  background-color: #fff;
+}
+
+#word_explain li {
+  padding: 0 10px;
+  list-style: none;
+  font-size: 20px;
+  background-color: #fff;
+  line-height: 40px;
+}
+.word_sample {
+  display: block;
+  padding-left: 2rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.auto {
+  float: right;
+  margin: 0 10px 0;
+}

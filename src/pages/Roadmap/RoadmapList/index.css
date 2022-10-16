@@ -1,0 +1,26 @@
+.roadmapList {
+  text-align: left;
+}
+
+.record_date {
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+.status {
+  margin-left: 0.3rem;
+  position: absolute;
+  right: 6rem;
+}
+
+.ok {
+  color: #00f;
+}
+
+.fail {
+  color: #f00;
+}
+
+.unknow {
+  color: #757575;
+}

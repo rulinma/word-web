@@ -1,0 +1,39 @@
+.roadmapWord {
+  text-align: left;
+}
+
+.record_detail {
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.record_detail_date {
+  color: #666363;
+}
+
+.record_detail_word {
+  color: #000;
+  margin-left: 0.5rem;
+}
+
+.record_detail_word_prefix {
+  display: inline-block;
+  color: #000;
+  margin-left: 0.6rem;
+  width: 25px;
+}
+
+.record_detail_word_suffix {
+  color: #000;
+  margin-left: 0.2rem;
+}
+
+.record_detail_status {
+  margin-left: 0.1rem;
+}
+
+.record_detail_action {
+  position: absolute;
+  right: 2rem;
+  color: #666363;
+}

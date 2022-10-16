@@ -1,0 +1,19 @@
+.invite_code {
+    font-size: 18px;
+    margin: 16px 12px;
+    background-color: #fff;
+    padding-left: 12px;
+    border-radius: 8px;
+    line-height: 2rem;
+}
+
+.look {
+    font-size: 18px;
+    color: #405ffa;
+}
+
+.code {
+    font-size: 18px;
+    color: #a9a9a9;
+    margin: 0 8px;
+}

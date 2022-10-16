@@ -1,0 +1,98 @@
+.comments {
+  position: relative;
+  /* padding-bottom: 50px; */
+  /* border-top: solid 1px #e9e7e9; */
+  margin: 5px;
+  border-radius: 5px;
+  /* position: absolute;
+  bottom: 50px;
+  width: 100%;
+  max-height: 200px;
+  height: 200px; */
+}
+
+.comment_submit {
+  vertical-align: top;
+  /* color: #9f9f9f; */
+  /* background-color: #fbfcfd; */
+  position: absolute; 
+  top: 1rem;
+  right: 1rem;
+}
+
+.word_comment {
+  text-align: left;
+  /* padding-left: 2rem; */
+  /* padding-top: 0.3rem; */
+  background-color: #fff;
+  padding: 0.6rem 0;
+}
+
+.word_comment_txt {
+  width: 70%;
+  /* height: 3rem; */
+  margin: 0 0 0 1rem;
+  border: 1px solid #999999;
+}
+
+.word_comment_btn {
+  vertical-align: top;
+  color: #f3f3f3;
+  background-color: #f3f3f3;
+}
+
+.word_comments {
+  margin-top: 0.2rem;
+  background-color: #fbfcfd;
+}
+
+.word_comment_content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  background-color: #fbfcfd;
+}
+
+.word_comments ul li {
+  background-color: #fbfcfd;
+  /* margin: 0.5rem 2rem; */
+  /* padding-left: 2rem; */
+  border: 0.1rem solid #e9e7e9;
+  /* border-radius: 0.1rem; */
+  font-size: 1rem;
+  text-align: left;
+  line-height: 2rem;
+  color: #445167;
+  position: relative;
+}
+
+.word_comments .good {
+  padding-right: 2rem;
+  text-align: right;
+}
+
+.word_comments .good::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../../images/good.png) no-repeat;
+  /* background-size 设置背景图片大小 */
+  background-size: 1rem auto;
+  /** 居中对齐 **/
+  vertical-align: middle;
+}
+
+.comment_action {
+  padding-right: 1rem;
+  text-align: right;
+}
+
+.like {
+  color: #f00;
+  cursor: pointer;
+}
+.comment .notlike {
+  text-align: right;
+  color: #ccc;;
+}

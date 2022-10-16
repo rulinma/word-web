@@ -1,0 +1,15 @@
+@import "~antd/dist/antd.css";
+
+.word_search {
+    margin-left: 2px;
+}
+
+.search_word {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    z-index: 500;
+    margin: 0 5px;
+}

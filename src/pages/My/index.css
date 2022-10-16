@@ -1,0 +1,68 @@
+.member_info {
+  color: #3a3a3a;
+  font-size: 18px;
+  margin: 12px 24px;
+  border-radius: 8px;
+}
+
+.is_member {
+  color: #f09443;
+  font-size: 16px;
+}
+
+.is_not_member {
+  color: #f09443;
+  font-size: 16px;
+}
+
+.is_not_member_exp {
+  color: #3a3a3a;
+  font-size: 16px;
+}
+
+.is_not_member_name {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.is_not_member_alipay {
+  font-size: 16px;
+  color: #405ffa;
+  margin: 5px 0;
+}
+
+.is_not_member_wechat {
+  font-size: 16px;
+  color: #24b035;
+}
+
+.member_compare {
+  color: #3a3a3a;
+  font-size: 15px;
+  margin: 12px 10px;
+}
+
+.try_member {
+  color: #f09443;
+  font-size: 16px;
+}
+
+.logout {
+  text-align: center; 
+  background-color: #ffffff;
+  margin: 16px 12px;
+  border-radius: 8px;
+}
+
+.book_choose {
+  font-size: 18px;
+  margin: 16px 12px;
+  background-color: #fff;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-top: 6px;
+}
+
+.book_basic {
+  font-size: 18px;
+}

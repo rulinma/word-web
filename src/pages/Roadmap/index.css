@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+
+.filter {
+  text-align: right;
+  margin: 1rem;
+}
+
+.roadmap {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.record_date {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0.6rem;
+}
+
+.record_block {
+  margin: 0.6rem 0 0 0;
+  /* border-bottom: 5px solid #cccccc; */
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.record_ul {
+  margin: 0 0 0.3rem 0;
+}

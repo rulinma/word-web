@@ -1,0 +1,71 @@
+<html>
+    <title>html demo test</title>
+    <style>
+
+        #top {
+            background-color: aqua;
+        }
+
+        #content {
+            background-color: antiquewhite;
+        }
+
+        #left {
+            background-color: red;
+            float: left;
+            width: 25%;
+        }
+
+        #middle {
+            background-color: blueviolet;
+            float: left;
+            width: 50%;
+        }
+
+        #right {
+            background-color: blue;
+            float: left;
+            width: 25%;
+        }
+
+        #core {
+            text-align: center;
+            background-color: #f3f3f3;
+            min-height: 200px;
+        }
+
+        #footer {
+            clear: both;
+            background-color: #cccbeb;
+        }
+
+        #head::after {
+            clear: both;
+            content: "";
+            /* display: block; */
+        }
+
+        #head::after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+    </style>
+    <body>
+        <div>
+            <div id="top">top</div>
+            <div id="content">
+                <div id="head">
+                    <div id="left">left</div>
+                    <div id="middle">middle</div>
+                    <div id="right">right</div>
+                </div>
+
+                <div id="core">
+                    content
+                </div>
+            </div>
+            <div id="footer">footer</div>
+        </div>
+    </body>
+</html>

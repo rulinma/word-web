@@ -1,0 +1,43 @@
+.comment {
+  color: #6d6d6d;
+}
+
+.comment_author {
+  font-size: 1.2rem;
+  margin: 0 1rem 0 2rem;
+}
+
+.comment_extra{
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #6d6d6d;
+}
+
+.word_comment_content{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  background-color: #fbfcfd;
+  display: inline-block;
+}
+
+.comment_like {
+  color: #f00;
+  cursor: pointer;
+  width: 1rem;
+  display: inline-block;
+}
+
+.comment_notlike {
+  text-align: right;
+  color: rgb(144, 144, 144);
+  width: 1rem;
+  display: inline-block;
+}
+
+.comments_delete {
+  margin-right: 0.5rem;
+  font-size: 0.88rem;
+  display: inline-block;
+}
+
